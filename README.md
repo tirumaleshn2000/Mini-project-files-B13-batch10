@@ -1,5 +1,6 @@
 # Covid 19 data analysis and forecasting
-## Guide: Shri Bhargav K 
+## Guide: 
+- Shri Bhargav K (Assistant professor)
 ## Team: 
 - Ganesh Reddy C 121810313004
 - Praharsha K 121810313011
