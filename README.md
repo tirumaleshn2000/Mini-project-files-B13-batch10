@@ -1,3 +1,5 @@
+# GITAM, Vizag
+### Mini project
 # Covid 19 data analysis and forecasting
 ## Guide: 
 - Shri Bhargav K (Assistant professor)
