@@ -9,7 +9,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 def rc_main():
     st.subheader('Daily recovery count of overall India                        ')
     #st.write('Confirmed_cases model is used, please change it')
-    final_data=pd.read_csv('/Users/tirumaleshn2000/Desktop/mini_project_final_files/final_recovered_data.csv')
+    final_data=pd.read_csv('final_recovered_data.csv')
     final_data['Date_YMD']=pd.to_datetime(final_data['Date_YMD'])
 
     #st.dataframe(final_data)
