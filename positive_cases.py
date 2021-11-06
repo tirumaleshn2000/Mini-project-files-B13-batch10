@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from statsmodels.tsa.arima.model import ARIMA
 import datetime
 import pickle
 import matplotlib.pyplot as plt
