@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 st.set_option('deprecation.showPyplotGlobalUse', False)
 def pc_main():
     st.subheader('Daily positive cases count')
-    final_data=pd.read_csv('/Users/tirumaleshn2000/Desktop/mini_project_final_files/final_confirmed_data.csv')
+    final_data=pd.read_csv('final_confirmed_data.csv')
     #st.dataframe(data_frame.tail())
     final_data['Date_YMD']=pd.to_datetime(final_data['Date_YMD'])
     #st.dataframe(final_data)
