@@ -10,5 +10,6 @@ matplotlib>=1.4.3
 pandas>=0.19
 flasgger==0.9.4
 streamlit
-Cython>= 0.28.5
+Cython>=0.28.5
+statsmodels
 
