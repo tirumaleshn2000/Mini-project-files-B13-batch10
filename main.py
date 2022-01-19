@@ -30,13 +30,13 @@ st.title('Covid 19 Analysis and Forecast')
 st.markdown('**Data:-** [Here](https://covid19.who.int/WHO-COVID-19-global-data.csv)')
 st.markdown('*Note: The dataset is differed from the actual data read for training and tuning the model')
 s3_resource = boto3.resource('s3',
-        aws_access_key_id = 'AKIA2ARRJR7S2ACTW5JW',
-        aws_secret_access_key = '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',
+        aws_access_key_id = '',
+        aws_secret_access_key = '',
         region_name = 'us-east-1')
 client = boto3.client(
         's3',
-        aws_access_key_id = 'AKIA2ARRJR7S2ACTW5JW',
-        aws_secret_access_key = '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',
+        aws_access_key_id = '',
+        aws_secret_access_key = '',
         region_name = 'us-east-1'
     )
 info_empty=st.empty()
